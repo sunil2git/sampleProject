@@ -1,0 +1,19 @@
+# package require for projects are
+
+npm install --save express
+npm install --save body-parser
+npm install --save  mongoose
+
+# to call other services
+npm install --save axios
+
+# Database : For database we are using cloud moongo db. please refer link below.
+https://cloud.mongodb.com/
+
+-> create API to save data,  It will autoatically craete the table (collections)
+-> We need to just create the Database and give the connection url in code for connection.
+-> connection url  contain the database and password for cloud mongodb
+
+Note : please refer this video link:
+https://www.youtube.com/watch?v=gF8IYisXByw&list=PLDmvslp_VR0xZGhJHMjy5dozCDJYZK6W-&index=1&ab_channel=EduonixLearningSolutions
+
